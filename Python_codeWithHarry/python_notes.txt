@@ -357,7 +357,7 @@ nm = "Harry"
 print(nm[-4:-2])  => H   a   r   r   y
 		     0   1   2   3   4   (Forward indexing)
 		    -5  -4  -3  -2  -1   (Backward indexing)
-*********************************************************************
+*********************************************************************************************
 Day-13
 String methods
 Python provides a set of built-in methods that we can use to alter and modify the strings.
@@ -580,7 +580,7 @@ str1 = "He's name is Dan. Dan is an honest man."
 print(str1.title())
 Output:
 He'S Name Is Dan. Dan Is An Honest Man.
-*********************************************************************
+***********************************************************************************************
 Day-15
 
 if the expression evaluates False:
@@ -642,7 +642,7 @@ else:
 Output:
 
 Number is between 11-20
-****************************************************************************************
+****************************************************************************************************
 Day 16:
 Match Case Statements
 To implement switch-case like characteristics very similar to if-else functionality, we use a match case in python. If you are coming from a C, C++ or Java like language, you must have heard of switch-case statements. If this is your first language, dont worry as I will tell you everything you need to know about match case statements in this video!
@@ -681,7 +681,7 @@ match x:
         print(x)
 Output:
 x % 2 == 0 and case is 4
-***************************************************************************
+************************************************************************************************
 Day 17:
 
 Introduction to Loops
@@ -741,7 +741,7 @@ Output:
 
 Quick Quiz
 Explore about third parameter of range (ie range(x, y, z))
-******************************************************************************
+*****************************************************************************************
 Day 18 : Python while Loop
 As the name suggests, while loops execute statements while the condition is True. As soon as the condition becomes False, the interpreter comes out of the while loop.
 
