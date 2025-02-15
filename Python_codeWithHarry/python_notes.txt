@@ -1,5 +1,5 @@
 python...code with harry=>raplet(IDE)
-*******************************************************************************
+******************************************************************************
 Features:
 -python is a interpreted programing language
 -platform independent.
@@ -7,7 +7,7 @@ Features:
 -open source programming language
 -provides very big library support.
 -it is possible to integrate with other programming languages.
-*******************************************************************************
+******************************************************************************
 Modules: 
 -well tested
 -less chances of errors.
@@ -30,10 +30,10 @@ Comments:
 1.single line comment- #
 2.multi line comment-  shortcut key(ctrl+/)
 
-*********************************************************************************
+*******************************************************************************
 Variables: works like a container that holds data.
 -creating a variable is just like creating a placeholder.
-*********************************************************************************
+*******************************************************************************
 Day 10 - Taking User Input in python
 In python, we can take user input directly by using input() function.This input function gives a return value as string/character hence we have to pass that into a variable
 
