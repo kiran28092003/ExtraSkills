@@ -1,5 +1,5 @@
 python...code with harry=>raplet(IDE)
-******************************************************************************
+*******************************************************************************
 Features:
 -python is a interpreted programing language
 -platform independent.
@@ -7,7 +7,7 @@ Features:
 -open source programming language
 -provides very big library support.
 -it is possible to integrate with other programming languages.
-******************************************************************************
+*******************************************************************************
 Modules: 
 -well tested
 -less chances of errors.
@@ -52,7 +52,7 @@ print(a)
 Output:
 Enter the name: Harry
 Harry
-******************************************************************************
+*******************************************************************************
 Day 5 - Comments, Escape sequence & Print in Python
 Welcome to Day 5 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python. We will also throw some light on Escape Sequences
 
