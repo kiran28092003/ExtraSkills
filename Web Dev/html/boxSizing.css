@@ -1,0 +1,26 @@
+hr{
+    width: 500px;
+    margin-left: 0;
+    border: 0.5px dashed black;
+
+}
+
+.box2 {
+    /* this is what we want that total box size is 500px like horizontal line fize size even after adding padding margin border and all.....by using border-box property.  */
+    box-sizing: border-box;
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid black;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+.box1{
+    /* by default box-sizing property is content-box */
+    /* box-sizing: content-box; */
+    width: 500px; 
+    background-color: lightcoral;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 50px;
+}

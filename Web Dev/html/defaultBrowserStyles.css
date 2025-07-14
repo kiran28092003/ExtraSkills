@@ -1,0 +1,16 @@
+/* remove all default margin and padding */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* now giving values according me whatever I want to give */
+h1{
+    margin: 10px;
+}
+
+p{
+    margin: 8px;
+    padding: 20px;
+}
+
