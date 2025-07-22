@@ -1,0 +1,11 @@
+/* only execute when last element was of p */
+/* p:last-child{
+    columns: green;
+} */
+
+
+/*  find last p and execute it compulsarily */
+p:last-of-type{
+    color:red;
+}
+
