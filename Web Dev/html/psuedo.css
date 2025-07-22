@@ -1,0 +1,28 @@
+/* link, visite, hover, active */
+/* follow the sequence lvha */
+/* psuedo classes NDN */
+a:hover{
+    color:green;
+}
+a:link{
+    color: orange;
+}
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: black;
+ }
+ /*
+p:hover{
+    color:green;
+}
+p:active {
+    background: #ccc;
+} */
+
