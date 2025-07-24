@@ -1,0 +1,23 @@
+.cool::before{
+    display:black;
+    content: 'hello';
+    color:green;
+    border: 1px dotted black;
+    margin-bottom:5px;
+    padding:5px
+}
+.cool::after {
+    display: black;
+    content: 'hello';
+    color: green;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px
+}
+
+.main-heading::before{
+    content:'hello';
+    color:red;
+
+}
+/* img,br,input ,,,we cant use this we this attributes */
