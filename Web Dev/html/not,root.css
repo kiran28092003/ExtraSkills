@@ -1,0 +1,30 @@
+/* :not(p){
+    color:blue;
+} */
+
+
+/* body:not(p){
+    color:blue;
+} */
+
+body :not(.fancy) {
+    color: blue;
+    background-color: #ddd;
+}
+
+div:empty{
+    background: #222;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+/* higher specifity :root */
+/* :root{
+    background: #333;
+    text-color: #eee;
+} */
+
+:root{
+    
+}
