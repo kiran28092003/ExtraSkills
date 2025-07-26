@@ -1,0 +1,22 @@
+html{
+    /* font-size: 10px; */
+    /* take % value for website responsiveness... */
+    font-size:62.5%;
+    /* 16px ----->100%
+    10px ----->100*10/16 == 62.5% */
+}
+.box1{
+    font-size: 2rem;
+    /* by default 1rem == 16px */
+    /* but here 2rem =10px*2=20px */
+}
+.text-content{
+    font-size: 3rem;
+    /* 10px*3==30px */
+    border: 1rem solid black;
+    /* 110=10px */
+    margin: 0.5rem;
+    /* 0.5*10=5 */
+    padding: 4.5rem;
+    /* 4.5*10=45px */
+}
