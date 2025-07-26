@@ -1,0 +1,23 @@
+div{
+    border: 2px solid red;
+    /* 100% of 10px== 10px */
+    font-size: 10px;
+    width: 50%;
+}
+
+p{
+    border: 1px solid green;
+    /* by default 16px and 100% of 16px is 16 px itself */
+    /* font-size: 100%; */
+    /* 200% ==32px */
+    font-size: 200%;
+    width: 50%;
+    margin: 4px auto;
+    /* margin-left: 25%; */
+    text-align: center;
+}
+
+
+/* 200% of 10px == 10*2=20px */
+
+/* mostly percentages uses for width and margin */
