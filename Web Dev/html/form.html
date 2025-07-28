@@ -3,41 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment form</title>
+    <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <h1>Payment Form</h1>
-        <h2>Contact Information</h2>
-        <p>Required fields are followed by *</p>
-        <p>Name: * <input type="text" name="name" required></p>
-        <fieldset>
-            <legend>Gender *</legend>
-            <p>
-                Male * <input type="radio" name="gender" id="Male" required>
-                Female * <input type="radio" name="gender" id="Female" required>
-            </p>
-        </fieldset>
-        <p>Address: <textarea name="Address" id="" cols="100" rows="10"></textarea></p>
-        <p>Email: * <input type="email" name="email" id="email" required></p>
-        <p>Pincode: * <input type="number" name="pincode" id="pincode" required></p>
-        <h2>Payment Information</h2>
-        <p>Card Type: *
-            <select name="card_type" id="card_type" required>
-                <option value="">--Select a card type--</option>
-                <option value="Visa">Visa</option>
-                <option value="rupay">rupay</option>
-                <option value="mastercard">mastercard</option>
+    <form action="/action.php">
+            <h3>Name:</h3> 
+            <input type="text" placeholder="Username"><br>
+            <h3>Password:</h3>
+            <input type="password" placeholder="Password"><br>
+            <h3>Select your Class:</h3>
+            <label for="101">
+                <input type="radio" value="classXI" name="class" id="101">class XI
+            </label>
+            <br>
+            <label for="102">
+                <input type="radio" value="classXII" name="class" id="102">class XII
+            </label><br>
+            <h3>Select your city:</h3>
+            <select name="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Banglor">Banglor</option>
             </select>
-        </p>
-        <p>
-            Card Number: * <input type="number" name="card_number" id="card_number" required>
-        </p>
-        <p>
-            Expiration Date: * <input type="date" name="exp_date" id="exp_date" required>
-        </p>
-        <p>CVV * <input type="password" name="CVV" id="CVV" required></p>
-        <input type="submit" value="Pay Now">
+            <br>
+            <br>
+            <h3>Select your Subjects:</h3>
+            <br>
+            <label for="Math">
+                <input type="checkbox" value="Math" name="subject" id="101">Math
+            </label> <br>
+            <br>
+            <label for="English">
+                <input type="checkbox" value="English" name="subject" id="101">English
+            </label> <br>
+            <br>
+            <label for="IT">
+                <input type="checkbox" value="IT" name="subject" id="101">IT
+            </label> <br>
+            <br>
+            <label for="Physics">
+                <input type="checkbox" value="Physics" name="subject" id="101">Physics
+            </label> <br>
+            <br>
+            <label for="Chem">
+                <input type="checkbox" value="Chem" name="subject" id="101">Chem
+            </label>
+            <br>
+            <br>
+            <label for="Biology">
+                <input type="checkbox" value="Biology" name="subject" id="101">Biology
+            </label>
+            <br><br>
+            <textarea name="feedback" id="101" placeholder="please give your valuable feedback here" rows=5></textarea>
+            <input type="submit" value="submit">
+            <!-- <video width="560" height="315" src="/mtVideo.mov" controls auto></video> -->
+            <br>
     </form>
 </body>
 </html>
