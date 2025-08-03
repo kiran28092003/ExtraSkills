@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Local Storage example</h1>
+    <p>localStorage <span id="local"></span></p>
+    <p>sessionStorage <span id="session"></span></p>
+    <button onclick="{localStorage.clear()}">deletel</button>
+    <button onclick="{sessionStorage.clear()}">deletes</button>
+
+</body>
+<script>
+    window.onload = () => {
+        localStorage.setItem("Name","tom");
+        sessionStorage.setItem("Name","John");
+        name1 = localStorage.getItem("Name");
+        name2 = sessionStorage.getItem("Name");
+        console.log(name1, name2);
+        document.getElementById("local").innerText = name1;
+        document.getElementById("session").innerText = name2;
+
+    };
+</script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input 
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+    />
+    <input 
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter your password"
+    />
+    <button onclick="login()">Login</button>
+
+</body>
+<script>
+    function login(){
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+
+    if(email=== "test@gmail.com" && password === "123456"){
+        localStorage.setItem("email",email)
+        localStorage.setItem("password",password)
+        window.location.href="dash.html";
+    }else{
+        alert("Invalid email or password")
+    }
+}
+</script>
+</html>
