@@ -3,3 +3,4 @@
 2. It's Started
 3. In Progress...
 4. little lazy...it's so boaring
+5. started working again...congizant's aptitude assisment is scheduled today
