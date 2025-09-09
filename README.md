@@ -5,4 +5,5 @@
 4. little lazy...it's so boaring
 5. started working again...congizant's aptitude assisment is scheduled today
 6. little lazy again...a break after insem exam
-7. always late😭
+7. always late
+8. actually not always😅
