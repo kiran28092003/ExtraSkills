@@ -7,3 +7,4 @@
 6. little lazy again...a break after insem exam
 7. always late
 8. actually not always😅
+9. Structuring Day
