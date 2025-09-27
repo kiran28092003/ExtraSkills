@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran Tajanpure - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset & base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #3498db;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: rotate(10deg) scale(1.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #3498db;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #777;
+        }
+
+        /* Section styling */
+        section {
+            margin-bottom: 25px;
+        }
+
+        section h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Flex & Grid */
+        .personal-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .personal-info div {
+            flex: 1 1 200px;
+        }
+
+        /* Lists */
+        ul {
+            list-style: inside square;
+            padding-left: 10px;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        /* Links & Buttons */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2c3e50;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2c3e50;
+            transform: scale(1.05);
+        }
+
+        /* Forms */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            background: #3498db;
+            color: #fff;
+            border-radius: 0 0 15px 15px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 600px) {
+            .personal-info {
+                flex-direction: column;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate {
+            animation: fadeIn 1s ease forwards;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container animate">
+        <!-- Header -->
+        <header>
+            <img src="kiran_image.png" alt="Kiran Tajanpure">
+            <h1>Kiran Tajanpure</h1>
+            <p>IT Engineering Student | Web Developer | Smart Projects Enthusiast</p>
+        </header>
+
+        <!-- Personal Info -->
+        <section>
+            <h2>Personal Information</h2>
+            <div class="personal-info">
+                <div><strong>Email:</strong> <a href="mailto:kirantajanpure48@gmail.com">kirantajanpure48@gmail.com</a>
+                </div>
+                <div><strong>Phone:</strong> 8459405425</div>
+                <div><strong>Address:</strong> Sangamner, Maharashtra, India</div>
+                <div><strong>LinkedIn:</strong> <a
+                        href="https://www.linkedin.com/in/kiran-tajanpure-a7509225b/">Profile</a></div>
+                <div><strong>GitHub:</strong> <a href="https://github.com/kiran28092003">Portfolio</a></div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>B.Tech in Information Technology, Amrutvahini College of Engineering, Sangamner (3rd Year)</li>
+                <li>High School - XYZ School, Maharashtra</li>
+                <li>Secondary School - ABC School, Maharashtra</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                                    <td>HTML, CSS, JavaScript</td>
+                                    <td>Advanced</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Java, Python, C++</td>
+                                        <td>Intermediate</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Power BI, SQL</td>
+                                        <td>Intermediate</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Raspberry Pi, IoT Projects</td>
+                                        <td>Advanced</td>
+                                    </tr>
+                                    <tr>
+                                        <td>React, Node.js</td>
+                                        <td>Beginner</td>
+                                    </tr>
+                                    </table>
+                                    
+                                    <!-- Skill Bars -->
+                                    <h3>Skill Levels</h3>
+                                    <div>
+                                        <label>HTML & CSS</label>
+                                        <progress value="90" max="100"></progress>
+                                    </div>
+                                    <div>
+                                        <label>JavaScript</label>
+                                        <progress value="80" max="100"></progress>
+                                    </div>
+                                    <div>
+                                        <label>Java & Python</label>
+                                        <progress value="70" max="100"></progress>
+                                    </div>
+                                    </section>
+                                    
+                                    <!-- Experience -->
+                                    <section>
+                                        <h2>Experience</h2>
+                                        <ol>
+                                            <li>
+                                                <strong>Zensar Technologies - Intern</strong> (PL/SQL, Python, Java)
+                                                <p>Developed TODO List App project and learned database & coding skills.</p>
+                                            </li>
+                                            <li>
+                                                <strong>Smart India Hackathon - Participant</strong>
+                                                <p>Created a Fun Gaming App for teaching Indian languages to kids using animations & general knowledge
+                                                    quizzes.</p>
+                                            </li>
+                                            <li>
+                                                <strong>IoT Project Competition</strong>
+                                                <p>Developed home automation system using Raspberry Pi, sensors, and GUI interface. Won 3rd prize.</p>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    
+                                    <!-- Certifications -->
+                                    <section>
+                                        <h2>Certifications</h2>
+                                        <ul>
+                                            <li>NPTEL Java Programming (12 weeks)</li>
+                                            <li>Power BI Basics Course</li>
+                                            <li>Zensar Technologies Internship Certificate</li>
+                                        </ul>
+                                    </section>
+                                    
+                                    <!-- Hobbies -->
+                                    <section>
+                                        <h2>Hobbies & Interests</h2>
+                                        <ul style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                            <li>Reading</li>
+                                            <li>Coding Challenges</li>
+                                            <li>Gaming</li>
+                                            <li>Travelling</li>
+                                            <li>Dog Care</li>
+                                        </ul>
+                                    </section>
+                                    
+                                    <!-- Languages -->
+                                    <section>
+                                        <h2>Languages</h2>
+                                        <ul>
+                                            <li>Marathi - Native</li>
+                                            <li>Hindi - Fluent</li>
+                                            <li>English - Fluent</li>
+                                        </ul>
+                                    </section>
+                                    
+                                    <!-- Achievements -->
+                                    <section>
+                                        <h2>Achievements</h2>
+                                        <details>
+                                            <summary>IoT Project Competition - 3rd Prize</summary>
+                                            Developed home automation project using sensors and Raspberry Pi.
+                                        </details>
+                                        <details>
+                                            <summary>Smart India Hackathon</summary>
+                                            Fun Gaming App to teach Indian languages to kids.
+                                        </details>
+                                        <details>
+                                            <summary>NPTEL Java Certification</summary>
+                                            Completed a 12-week course and built a mini-project.
+                                        </details>
+                                    </section>
+                                    
+                                    <!-- Contact Form -->
+                                    <section>
+                                        <h2>Contact Me</h2>
+                                        <form>
+                                            <input type="text" placeholder="Your Name" required>
+                                            <input type="email" placeholder="Your Email" required>
+                                            <textarea rows="4" placeholder="Your Message"></textarea>
+                                            <button type="submit">Send Message</button>
+                                        </form>
+                                    </section>
+                                    
+                                    <!-- Footer -->
+                                    <footer>
+                                        <marquee behavior="scroll" direction="left" scrollamount="5">
+                                            &copy; 2025 Kiran Tajanpure. All rights reserved.
+                                        </marquee>
+                                    </footer>
+                                    </div>
+                                    </body>
+                                    
+                                    </html>
+ 

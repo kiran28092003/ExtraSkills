@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+            justify-content: center;
+            align-items: center;
+            margin: 0%;
+            display: flex;
+        }
+        form{
+            background-color: white;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0px 25px 40px;
+            width: 350px;
+        }
+        legend{color:black;
+        border-radius: 10px 0.5px;
+        background-color:bisque;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Info</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Enter your password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Enter your Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gend">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gend">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>DOB</label>
+                    </td>
+                    <td>
+                        <input type="date" placeholder="Enter your DOB">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Resume:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Select State:</td>
+                    <td>
+                        <select>
+                            <option>--select--</option>
+                            <option>Tamil Nadu</option>
+                            <option>Kerala</option>
+                            <option>Karnataka</option>
+                            <option>Andhra Pradesh</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr rowspan="2">
+                    <td><button>Submit</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
