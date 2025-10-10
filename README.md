@@ -8,3 +8,4 @@
 7. always late
 8. actually not always😅
 9. Structuring Day
+10. Little lazy again.. but trying to align.
