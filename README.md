@@ -15,3 +15,4 @@
 14. on ladies problem.
 15. moody
 16. motivated.
+17. Practicals ended.
