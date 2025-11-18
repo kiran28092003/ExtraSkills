@@ -16,3 +16,4 @@
 15. moody
 16. motivated.
 17. Practicals ended.
+18. with flopped plan.
