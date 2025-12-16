@@ -20,3 +20,4 @@
 19. zero study ..remain with regret. Early sleep for early wake up.
 20. problematic GitHub.
 21. A new start again upto placement.
+22. Pause due to exams. 
