@@ -14,10 +14,11 @@
 13. it's too late today
 14. on ladies problem.
 15. moody
-16. motivated.
-17. Practicals ended.
-18. with flopped plan.
-19. zero study ..remain with regret. Early sleep for early wake up.
-20. problematic GitHub.
-21. A new start again upto placement.
-22. Pause due to exams. 
+16. Let's do some exam study.
+17. motivated.
+18. Practicals ended.
+19. with flopped plan.
+20. zero study ..remain with regret. Early sleep for early wake up.
+21. problematic GitHub.
+22. A new start again upto placement.
+23. Pause due to exams. 
